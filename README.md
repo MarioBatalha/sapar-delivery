@@ -1,18 +1,18 @@
 <h1 align="center">
-  <img alt="VamBazar" height="80" title="Plant Manager" src="./mobile/src/assets/img/logo.png" />
+  <img alt="SaparDelivery" height="80" title="Plant Manager" src="./mobile/src/assets/img/logo.png" />
 </h1>
 
-<h3 align="center">Vam Bazar</h3>
+<h1 align="center">Sapar Delivery</h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFA800&labelColor=000000">
 
- <img src="https://img.shields.io/static/v1?label=Vam&message=Bazar&color=FFA800&labelColor=000000" alt="Vam Bazar" />
+ <img src="https://img.shields.io/static/v1?label=Vam&message=Bazar&color=FFA800&labelColor=000000" alt="Sapar delivery" />
 </p>
 
 
 <h1 align="center">
-  <img alt="VamBazar" height=70%" width="100%" title="Template" src="./mobile/src/assets/img/cover.png" />
+  <img alt="Sapar delivery" height=70%" width="100%" title="Template" src="./mobile/src/assets/img/cover.png" />
 </h1>
 
  
