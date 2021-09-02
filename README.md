@@ -2,7 +2,9 @@
   <img alt="VamBazar" height="80" title="Plant Manager" src="./mobile/src/assets/img/logo.png" />
 </h1>
 
-<h3 align="center">Vam Bazar</h3>
+<h1 align="center">Sapar delivery</h1>
+
+Sapar Delivery is an all-in-one mobile app, three services in one app (E-commerce, Taxi Service, and Delivery).
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFA800&labelColor=000000">
