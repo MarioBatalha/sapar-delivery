@@ -7,7 +7,7 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFA800&labelColor=000000">
 
- <img src="https://img.shields.io/static/v1?label=Vam&message=Bazar&color=FFA800&labelColor=000000" alt="Sapar delivery" />
+ <img src="https://img.shields.io/static/v1?label=Sapar&message=Delivery&color=FFA800&labelColor=000000" alt="Sapar delivery" />
 </p>
 
 
