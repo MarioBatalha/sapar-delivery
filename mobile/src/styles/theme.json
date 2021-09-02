@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "default": "#161616",
+    "button": "#FFA800",
+    "primary": "#FFB21E",
+    "secondary": "#F2F2F2",
+    "transparent": "#FFFFFF00",
+    "inputBorder": "#C6C6C6",
+    "pinColor": "#EA4335",
+    "muted": "#606060"
+  },
+  "Dark": {}
+}

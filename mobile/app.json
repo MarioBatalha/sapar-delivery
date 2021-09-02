@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Vam Bazar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "userInterfaceStyle": "automatic",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vambazar.vambazar",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC4gIWKxzFlL3RlqDoRvkGkECf-kwQl7nU"
+      }
+    },
+    "android": {
+      "userInterfaceStyle": "dark",
+      "package": "com.vambazar.vambazar",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC4gIWKxzFlL3RlqDoRvkGkECf-kwQl7nU"
+        }
+      }
+    },
+    "web": {}
+  }
+}
