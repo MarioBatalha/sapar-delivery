@@ -2,13 +2,9 @@
   <img alt="SaparDelivery" height="80" title="Plant Manager" src="./mobile/src/assets/img/logo.png" />
 </h1>
 
-<<<<<<< HEAD
-<h1 align="center">Sapar Delivery</h1>
-=======
-<h1 align="center">Sapar delivery</h1>
 
+<h1 align="center">Sapar Delivery</h1>
 Sapar Delivery is an all-in-one mobile app, three services in one app (E-commerce, Taxi Service, and Delivery).
->>>>>>> d405b921e078caebff40ba85f90cc17df3cc8b54
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFA800&labelColor=000000">
@@ -19,9 +15,7 @@ Sapar Delivery is an all-in-one mobile app, three services in one app (E-commerc
 
 <h1 align="center">
   <img alt="Sapar delivery" height=70%" width="100%" title="Template" src="./mobile/src/assets/img/cover.png" />
-</h1>
-
- 
+</h1> 
 
 ## Summary
 
@@ -87,10 +81,7 @@ The deployment...
 ## Author
 
   - **Bat Devs**  -
-   
-
 ## Technologies
-
   - JS
   - React-Native (Expo)
   - Axios
@@ -100,4 +91,4 @@ The deployment...
   - Mongoose
   - Morgan
   - Socket.io
-# 
+

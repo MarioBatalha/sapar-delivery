@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Image } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -8,8 +8,8 @@ import { useNavigation } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
 import { updateUser, checkUser } from '../../store/modules/app/action';
 
-import social from '../../services/social';
-import graph from '../../services/facebook';
+//import social from '../../services/social';
+//import graph from '../../services/facebook';
 import Logo from '../../assets/img/logo.png';
 
 import {
@@ -23,25 +23,20 @@ import {
   BoldText,
 } from '../../styles';
 
-const Login = async () => {
-  const phone = await AsyncStorage.getItem('phone');
-  const password = await AsyncStorage.getItem('password');
+const Login = () => {
+  const [phone, setPhone] = useState(null);
+  const [password, setPassword] = useState(null);
 
-  const dispatch = useDispatch();
-
+  //const dispatch = useDispatch();
   const navigation = useNavigation();
+
   const handleSignUp = async () => {
     navigation.navigate('Register');
   };
 
   const handleLogin = async () => {
-    const { phone, password } = await AsyncStorage.getItem('user');
-    await dispatch(checkUser(phone, password));
-    if (user) {
-      dispatch(updateUser(JSON.parse(user)));
-      navigation.replace('Home');
+      navigation.replace('Type');
     }
-  };
   /*
     const login = async () => {
     try {
@@ -124,17 +119,14 @@ const Login = async () => {
           keyboardType="numeric"
           placeholder="+244 911 111 111"
           value={phone}
-          onChangeText={phone => {
-            AsyncStorage.setItem('phone', phone);
-          }}
+          onChangeText={setPhone}
+  
         />
         <Input
           textContentType="password"
           placeholder="Palavra-passe"
           value={password}
-          onChangeText={password => {
-            AsyncStorage.setItem('password', password);
-          }}
+          onChangeText={setPassword}
         />
         <Button color="button" onPress={() => handleLogin()}>
           <ButtonText color="default">Log In</ButtonText>

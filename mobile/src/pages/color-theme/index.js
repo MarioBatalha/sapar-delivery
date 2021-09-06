@@ -19,7 +19,7 @@ const ColorTheme = () => {
   const navigation = useNavigation();
 
   const handleColorTheme = () => {
-    navigation.navigate('Type');
+    navigation.navigate('Login');
   };
 
   return (

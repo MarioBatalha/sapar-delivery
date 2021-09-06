@@ -80,6 +80,8 @@ export const Input = styled.TextInput`
   margin: 5px 5px;
   padding: 20px 10px;
   opacity: 0.9;
+  color:  ${props =>
+    props.color ? theme.colors[props.color] : theme.colors.default};
   background-color: ${props =>
     props.color ? theme.colors[props.color] : theme.colors.secondary};
 `;
