@@ -2,9 +2,18 @@
   <img alt="SaparDelivery" height="80" title="Plant Manager" src="./mobile/src/assets/img/logo.png" />
 </h1>
 
+<<<<<<< HEAD
+=======
+
+<h1 align="center">Sapar delivery</h1>
+>>>>>>> e90503a6b233987f2cac759044fbffb79e4f4825
 
 <h1 align="center">Sapar Delivery</h1>
 Sapar Delivery is an all-in-one mobile app, three services in one app (E-commerce, Taxi Service, and Delivery).
+<<<<<<< HEAD
+=======
+
+>>>>>>> e90503a6b233987f2cac759044fbffb79e4f4825
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFA800&labelColor=000000">
