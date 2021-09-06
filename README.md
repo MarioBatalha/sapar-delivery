@@ -3,8 +3,6 @@
 </h1>
 
 
-<h1 align="center">Sapar delivery</h1>
-
 <h1 align="center">Sapar Delivery</h1>
 Sapar Delivery is an all-in-one mobile app, three services in one app (E-commerce, Taxi Service, and Delivery).
 
