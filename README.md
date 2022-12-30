@@ -81,7 +81,7 @@ The deployment...
  
 ## Author
 
-  - **Bat Devs**  -
+  - **Mario Batalha**  -
 ## Technologies
   - JS
   - React-Native (Expo)
